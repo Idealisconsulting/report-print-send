@@ -4,11 +4,11 @@
 
 import mock
 import tempfile
-from openerp.tests.common import TransactionCase
+from odoo.tests.common import TransactionCase
 
 
-model = 'openerp.addons.base_report_to_printer.models.printing_printer'
-server_model = 'openerp.addons.base_report_to_printer.models.printing_server'
+model = 'odoo.addons.base_report_to_printer.models.printing_printer'
+server_model = 'odoo.addons.base_report_to_printer.models.printing_server'
 
 ppd_header = '*PPD-Adobe: "4.3"'
 ppd_input_slot_header = """
